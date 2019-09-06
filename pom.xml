@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.compilador</groupId>
+	<artifactId>compilador-maven</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>CompiladorMavem</name>
+	<description>Projeto para testar compilação de classes!</description>
+
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		
+			<!--  do proprio projeto, mas acho que o macen não baixa ele já tem
+		<dependency>
+		    <groupId>br.com.compilador</groupId>
+		    <artifactId>compilador-maven</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	 -->
+
+
+	</dependencies>
+</project>
